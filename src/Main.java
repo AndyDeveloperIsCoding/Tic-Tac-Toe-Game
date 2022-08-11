@@ -226,7 +226,7 @@ public class Main {
 
     private static boolean validateInput(Scanner scanner) {
 
-        System.out.println("Enter the coordinates:");
+        System.out.println("Enter the coordinates in the format 'X Y':");
 
         try {
             String rowGiven = scanner.next();
